@@ -2,6 +2,7 @@
   min-height: 100vh;
   background-color: var(--bg);
   color: var(--textColor);
+  padding: 1px;
 }
 
 .dark {
@@ -16,6 +17,17 @@
   --textColor: black;
   --softBg: #f0f0f0;
   --softTextColor: #626262;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .wrapper {
